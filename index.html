@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Personal Website</title>
+  <style>
+    /* Reset some default styles */
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f1f1f1;
+    }
+
+    /* Header */
+    header {
+      background-color: #333;
+      padding: 20px;
+      color: #fff;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+
+    /* Navigation */
+    nav {
+      background-color: #666;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav li {
+      display: inline-block;
+      margin-right: 10px;
+    }
+
+    nav a {
+      display: block;
+      padding: 10px;
+      color: #fff;
+      text-decoration: none;
+    }
+
+    /* Main content */
+    main {
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 70vh;
+    }
+
+    .card {
+      background-color: #fff;
+      border-radius: 5px;
+      padding: 20px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .card h2 {
+      color: #333;
+      font-size: 24px;
+      margin-top: 0;
+    }
+
+    .card p {
+      margin-bottom: 10px;
+    }
+
+    .download-section {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    .download-link {
+      display: inline-block;
+      margin-right: 10px;
+      padding: 10px 20px;
+      background-color: #333;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    .image-section {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    .profile-pic {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      object-position: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Personal Details</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#downloads">Downloads</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <div class="card">
+      <h2>About Me</h2>
+      <div class="image-section">
+        <img class="profile-pic" src="C:\Users\Asus\Desktop\html\32435.jpg" alt="Profile Picture">
+      </div>
+      <p>My Name is Prashant Paudel. I am an IT Graduate from Birendra Multiple Campus</p>
+    </div>
+
+    <section id="downloads" class="download-section">
+      <h2>Download Documents</h2>
+      <p>
+        <a class="download-link" href="cover_letter.pdf" download>Cover Letter</a>
+        <a class="download-link" href="experience_letter.pdf" download>Experience Letter</a>
+        <a class="download-link" href="cv.pdf" download>CV</a>
+      </p>
+    </section>
+  </main>
+</body>
+</html>
